@@ -1,0 +1,38 @@
+.main__wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header__logo {
+    text-transform: uppercase;
+}
+
+.header__actions {
+    display: flex;
+
+}
+
+.btn__primary {
+    background: greenyellow;
+    color: #ffffff;
+    border: 1px solid greenyellow;
+}
+
+.btn__secondary {
+    background: #ffffff;
+    color: darkgray;
+}
+
+.btn__flat {
+    border: none;
+}
+
+footer {
+
+}
