@@ -27,16 +27,16 @@ header {
 
 }
 
-.header__search img {
-
-    width: 20px;
-
-}
 
 .header__search {
 
     margin: 0 50px 0 60px;
 
+}
+
+.header__search img {
+    width: 20px;
+    position: absolute;
 }
 
 input {
@@ -84,10 +84,12 @@ input {
     margin-right: 33px;
 }
 
-.poster__wrapper:nth-child(4) {
+.poster__wrapper:nth-child(4n) {
     margin: 0;
 }
-
+.posters__wrapper img {
+    width: 10px;
+}
 .poster_header {
     display: flex;
     align-items: center;
