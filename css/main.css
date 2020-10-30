@@ -29,14 +29,19 @@ header {
 
 
 .header__search {
-
     margin: 0 50px 0 60px;
-
 }
 
-.header__search img {
+.header__search form {
+    display: flex;
+    align-items: center;
+}
+
+.header__search-img {
+    display: flex;
+    align-items: center;
     width: 20px;
-    position: absolute;
+    margin-right: 10px;
 }
 
 input {
@@ -65,6 +70,7 @@ input {
 .tags__wrapper {
     display: flex;
     margin: 10px 0 20px;
+    flex-wrap: wrap;
 }
 .tags__wrapper div {
     padding: 5px 12px;
